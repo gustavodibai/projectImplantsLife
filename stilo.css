@@ -1,0 +1,88 @@
+body{
+    background-color: #8db2ba;
+}
+
+div#interface {
+    width: 950px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 15px black;
+    padding: 15px;
+
+}
+
+header#cabecalho h2 {
+    font-family: inherit;
+    font-style: italic;
+    font-size: 15pt;
+    color: #606060;
+    position: relative;
+    top: 85px;
+    left: 90px;
+}
+
+/*header#cabecalho p{
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 2px;
+    position: relative;
+    top: 35px;
+    right: 100px;
+    width: 130px;
+    height: 30px;
+    padding:8px;
+    background-color: silver;
+} */
+
+nav#menu{
+	display: block;
+}
+
+nav#menu  ul{
+	list-style:none;
+	text-transform: uppercase;
+	background-color: #3e5c9a;
+	position: relative;
+	top: 150px;
+    width: 940px;
+    left: -15px;
+
+}
+nav#menu li {
+	display:inline-block;
+	color: black;
+	padding: 12px;
+	font-style: bold;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu li:hover {
+	background-color: #8db2ba;
+	color: silver;
+	transition: background-color 0.5s;
+}
+
+nav#menu a{
+	color: white;
+	text-decoration: none;
+}
+
+#sim_fb {
+	position: relative;
+	top: -30px;
+	right: 20px;
+}
+
+#sim_li{
+	position: relative;
+	top: -30px;
+	right: 25px;
+}
+
+div#corpo{
+	position: relative;
+	top: 100px;
+}

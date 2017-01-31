@@ -5,17 +5,15 @@ body{
 div#interface {
     width: 950px;
     background-color: white;
-    margin: -20px auto 0px auto;
+    margin: auto auto auto auto;
     box-shadow: 0px 0px 15px black;
     padding: 15px;
 
 }
 
 header#cabecalho h2 {
-    font-family: inherit;
-    font-style: italic;
-    font-size: 15pt;
-    color: #606060;
+    font-style: bold;
+    color: #3e5c9a;
     position: relative;
     top: 85px;
     left: 90px;
@@ -65,21 +63,21 @@ nav#menu li:hover {
 }
 
 nav#menu a{
-    font-family: monospace;
+  font-family: monospace;
 	color: white;
 	text-decoration: none;
 }
 
 #sim_fb {
 	position: relative;
-	top: -30px;
-	right: 20px;
+	margin-top: -150px;
+	margin-right: 20px;
 }
 
 #sim_li{
 	position: relative;
-	top: -30px;
-	right: 25px;
+	margin-top: -150px;
+	margin-right: 60px;
 }
 
 div#corpo{
@@ -89,6 +87,21 @@ div#corpo{
 
 #rodape {
     background-color: #3e5c9a;
-    height: 50px;
+    height: 70px;
     width: 100%;
+    border: 1px solid rgba(0, 0, 200, 0.4);
+    border-radius: 5px;
+    position: relative;
+}
+
+#rodape p {
+  font-size: 1.2em;
+  font-family: monospace;
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+nav#ban {
+  position: relative;
 }

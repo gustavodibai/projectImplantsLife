@@ -4,6 +4,12 @@
     <meta charset="UTF-8"/>
     <title>Implant's Life</title>
 	<link rel="stylesheet" type="text/css" href="stilo.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+
+          <link href="banner.css" rel="stylesheet" type="text/css" />
+
+<script type="text/jscript" src="banner.js"></script>
 </head>
 <body>
 <div id="interface">
@@ -11,7 +17,7 @@
 <header id="cabecalho">
 <img src="imagens/logo1TransSize.png" width="180" align="left"/>
 
-<h2>A arte do sorriso!</h2>
+<h2 style="font-family: Tangerine; font-size: 20px;">A arte do sorriso!</h2>
 
 <img id="sim_fb" src="imagens/simbolo_fb.png" width="30" height="30" align="right"/>
 <img id="sim_li" src="imagens/sim-linkedin_2.png" width="30" height="30" align="right"/>
@@ -20,28 +26,39 @@
 <h1>Menu</h1>
 <ul id="menu">
 	<li><a href="index.html">Home</a></li>
-	<li><a href="especialidades.html">Quem Somos</a></li>
-	<li><a href="">Contato</a></li>
-	<li><a href="">Localização</a></li>
+	<li><a href="especialidades.html">Especialidades</a></li>
+    <li><a href="#">Contato</a></li>
+    <li><a href="#" >Localização</a></li>
 </ul>
 </nav>
 </div>
 <div id="corpo">
-____________________________________________________________________________________________________
-<br>
-<br>
-<br>
-[      AQUI ENTRA UM BANNER DE IMAGENS      ]
-<br>
-<br>
-<br>
-</div>
-____________________________________________________________________________________________________
-<div id="rodape">
-implant's Life 2016
+  <nav id="ban">
+  <div id="banner" class="banner">
 
-Tel:32451935
-e-mail: implantslife@gmail.com
+  	<div id="banner_img">
+
+     	  <img src="banner_img/1.jpg" width="900px" height="300px" border="0" alt="Banner">
+
+      </div>
+
+      <div id="botoes">
+
+      		<a href="javascript:void(0);" id="banner_img_1" class="hover" onclick="mudaImg('0');">1</a>
+          	<a href="javascript:void(0);" id="banner_img_2" onclick="mudaImg('1');">2</a>
+  			<a href="javascript:void(0);" id="banner_img_3" onclick="mudaImg('2');">3</a>
+          	<a href="javascript:void(0);" id="banner_img_4" onclick="mudaImg('3');">4</a>
+
+      </div>
+  </div>
+</nav>
+
+<div id="rodape">
+<p>Telefone:32451935
+</p>
+<p>
+E-mail: implantslife@gmail.com Implant's Life 2017
+</p>
 </div>
 </div>
 </body>
